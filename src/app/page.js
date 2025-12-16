@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Header />
-
+      <h1>Bienvenue à La Chaloupe</h1>
       <Footer />
     </>
   );
