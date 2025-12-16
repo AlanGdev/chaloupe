@@ -46,7 +46,7 @@ const Header = () => {
 
           <Link
             href="/"
-            className="btn btn-ghost normal-case text-xl flex items-center gap-3"
+            className="btn btn-ghost normal-case text-xl flex items-center gap-3 hover:bg-transparent hover:border-none"
           >
             {/* Utilise trois images différentes selon le breakpoint : mobile / tablette / desktop */}
             <Image
