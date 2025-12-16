@@ -27,7 +27,7 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-lg md:text-xl"
             >
               <li>
                 <Link href="/">Accueil</Link>
@@ -70,12 +70,14 @@ const Header = () => {
               height={80}
               className="hidden lg:block"
             />
-            <span>La Chaloupe</span>
+            <span className="text-lg md:text-2xl lg:text-3xl font-semibold">
+              La Chaloupe
+            </span>
           </Link>
         </div>
 
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 text-lg md:text-xl lg:text-xl">
             <li>
               <Link href="/">Accueil</Link>
             </li>
@@ -94,10 +96,25 @@ const Header = () => {
         <div className="navbar-end">
           <a
             href="tel:+33687190292"
-            className="btn btn-primary"
+            className="btn btn-primary text-lg md:text-xl flex items-center"
             aria-label="Appeler +33 6 87 19 02 92"
           >
-            Appeler
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-5 h-5 mr-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M3 5a2 2 0 012-2h2.2a1 1 0 01.95.684l.8 2.4a1 1 0 01-.217.93l-1 1a11 11 0 005 5l1-1a1 1 0 01.93-.217l2.4.8A1 1 0 0121 16.8V19a2 2 0 01-2 2A19 19 0 013 5z"
+              />
+            </svg>
+            <span>Appeler</span>
           </a>
         </div>
       </div>
