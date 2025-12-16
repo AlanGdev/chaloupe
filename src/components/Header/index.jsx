@@ -79,22 +79,34 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-2 text-lg md:text-xl lg:text-xl">
             <li>
-              <Link className="font-semibold" href="/">
+              <Link
+                className="font-semibold hover:text-blue-400 hover:bg-transparent transition-colors"
+                href="/"
+              >
                 Accueil
               </Link>
             </li>
             <li>
-              <Link className="font-semibold" href="/restaurant">
+              <Link
+                className="font-semibold hover:text-blue-400 hover:bg-transparent transition-colors"
+                href="/restaurant"
+              >
                 Restaurant
               </Link>
             </li>
             <li>
-              <Link className="font-semibold" href="/carte">
+              <Link
+                className="font-semibold hover:text-blue-400 hover:bg-transparent transition-colors"
+                href="/carte"
+              >
                 Carte
               </Link>
             </li>
             <li>
-              <Link className="font-semibold" href="/contact">
+              <Link
+                className="font-semibold hover:text-blue-400 hover:bg-transparent transition-colors"
+                href="/contact"
+              >
                 Contact & horaires
               </Link>
             </li>
