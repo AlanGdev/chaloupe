@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Section1Accueil } from '@/components/Section1Accueil';
 
 export default function Home() {
   return (
     <>
       <Header />
-      <h1>Bienvenue à La Chaloupe</h1>
+      <Section1Accueil />
       <Footer />
     </>
   );
