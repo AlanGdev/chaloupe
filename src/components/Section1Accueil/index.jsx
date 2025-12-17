@@ -14,7 +14,7 @@ export function Section1Accueil() {
     []
   );
 
-  const HOLD_MS = 2000;     // 2s fixe
+  const HOLD_MS = 2500;     // 2.5s fixe
   const TRANSITION_MS = 700; // flou + slide
   const TOTAL_MS = HOLD_MS + TRANSITION_MS;
 
@@ -65,12 +65,11 @@ export function Section1Accueil() {
       },
     },
     exit: (dir) => ({
-      x: "0%",
-      opacity: 0,
-      filter: "blur(12px)",
+      x: dir === 1 ? "-100%" : "100%",
+      opacity: 1,
+      filter: "blur(8px)",
       transition: {
-        duration: TRANSITION_MS / 1000,
-        ease: "easeInOut",
+        x: { duration: TRANSITION_MS / 1000, ease: "easeInOut" },
       },
     }),
   };
