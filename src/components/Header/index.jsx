@@ -13,6 +13,27 @@ import Image from 'next/image';
 const Header = () => {
   return (
     <header>
+      <div className="flex justify-center items-center py-2 bg-white shadow-md h-24">
+                <Link
+            href="/"
+            className="btn btn-ghost normal-case text-xl flex items-center gap-3 hover:bg-transparent hover:border-none"
+          >
+            {/* Trois images selon le breakpoint pour optimiser l'affichage */}
+            <Image
+              src="/logodesktop.png"
+              alt="La Chaloupe"
+              width={100}
+              height={100}
+              
+            />
+
+            {/* Nom de la marque : taille responsive */}
+            {/*<span className="text-lg md:text-2xl lg:text-3xl font-semibold ">
+              La Chaloupe
+            </span>*/}
+          </Link>
+          </div>
+
       {/* Conteneur principal du header. Hauteur responsive : mobile(64px) md(80px) lg(100px) */}
       <div className="navbar bg-base-100 px-2 h-16 md:h-20 lg:h-[100px] items-center ">
         {/* Section gauche : menu mobile (dropdown) + logo */}
@@ -59,38 +80,6 @@ const Header = () => {
           </div>
 
           {/* Logo + nom : lien vers la page d'accueil */}
-          <Link
-            href="/"
-            className="btn btn-ghost normal-case text-xl flex items-center gap-3 hover:bg-transparent hover:border-none"
-          >
-            {/* Trois images selon le breakpoint pour optimiser l'affichage */}
-            <Image
-              src="/logomob.png"
-              alt="La Chaloupe"
-              width={40}
-              height={40}
-              className="block md:hidden"
-            />
-            <Image
-              src="/logotab.png"
-              alt="La Chaloupe"
-              width={64}
-              height={64}
-              className="hidden md:block lg:hidden"
-            />
-            <Image
-              src="/logodesktop.png"
-              alt="La Chaloupe"
-              width={80}
-              height={80}
-              className="hidden lg:block"
-            />
-
-            {/* Nom de la marque : taille responsive */}
-            <span className="text-lg md:text-2xl lg:text-3xl font-semibold ">
-              La Chaloupe
-            </span>
-          </Link>
         </div>
 
         {/* Section centrale : menu horizontal visible en desktop (lg+) */}
