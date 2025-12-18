@@ -1,20 +1,20 @@
-"use client";
+'use client';
 
-import React, { useEffect, useMemo, useRef, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 
 export function Section1Accueil() {
   const images = useMemo(
     () => [
-      "/section1AccueilImg1.avif",
-      "/section1AccueilImg2.avif",
-      "/section1AccueilImg3.avif",
-      "/section1AccueilImg4.avif",
+      '/chaloupeGrandAngle.avif',
+      '/section1AccueilImg2.avif',
+      '/section1AccueilImg3.avif',
+      '/pontNoyalo.avif',
     ],
-    []
+    [],
   );
 
-  const HOLD_MS = 2500;     // 2.5s fixe
+  const HOLD_MS = 2500; // 2.5s fixe
   const TRANSITION_MS = 700; // flou + slide
   const TOTAL_MS = HOLD_MS + TRANSITION_MS;
 
@@ -52,30 +52,30 @@ export function Section1Accueil() {
 
   const variants = {
     enter: (dir) => ({
-      x: dir === 1 ? "100%" : "-100%",
+      x: dir === 1 ? '100%' : '-100%',
       opacity: 1,
-      filter: "blur(0px)",
+      filter: 'blur(0px)',
     }),
     center: {
-      x: "0%",
+      x: '0%',
       opacity: 1,
-      filter: "blur(0px)",
+      filter: 'blur(0px)',
       transition: {
-        x: { duration: TRANSITION_MS / 1000, ease: "easeInOut" },
+        x: { duration: TRANSITION_MS / 1000, ease: 'easeInOut' },
       },
     },
     exit: (dir) => ({
-      x: dir === 1 ? "-100%" : "100%",
+      x: dir === 1 ? '-100%' : '100%',
       opacity: 1,
-      filter: "blur(8px)",
+      filter: 'blur(8px)',
       transition: {
-        x: { duration: TRANSITION_MS / 1000, ease: "easeInOut" },
+        x: { duration: TRANSITION_MS / 1000, ease: 'easeInOut' },
       },
     }),
   };
 
   return (
-    <section className="w-full h-[500px] relative overflow-hidden rounded-lg mt-8">
+    <section className="w-full h-[500px] relative overflow-hidden mt-8">
       {/* Stage */}
       <div className="absolute inset-0">
         <AnimatePresence custom={direction} mode="sync">
@@ -91,9 +91,7 @@ export function Section1Accueil() {
             exit="exit"
           />
         </AnimatePresence>
-
       </div>
-
     </section>
   );
 }
