@@ -1,6 +1,6 @@
 // Header de l'application Chaloupe (daisyUI)
-import React from 'react';
-import Link from 'next/link';
+import React from 'react'
+import Link from 'next/link'
 
 // Composant Header responsive
 // - Mobile-first : le menu principal est un dropdown sur petites tailles
@@ -13,25 +13,25 @@ const Header = () => {
   return (
     <header>
       <div className="flex justify-center items-center py-2 bg-white shadow-md h-24">
-                <Link
-            href="/"
-            className="btn btn-ghost normal-case text-xl flex items-center gap-3 hover:bg-transparent hover:border-none"
-          >
-            {/* Trois images selon le breakpoint pour optimiser l'affichage */}
-            <img
-              src="/logodesktop.png"
-              alt="La Chaloupe"
-              width={100}
-              height={100}
-              className="object-contain"
-            />
+        <Link
+          href="/"
+          className="btn btn-ghost normal-case text-xl flex items-center gap-3 hover:bg-transparent hover:border-none"
+        >
+          {/* Trois images selon le breakpoint pour optimiser l'affichage */}
+          <img
+            src="/logodesktop.png"
+            alt="La Chaloupe"
+            width={100}
+            height={100}
+            className="object-contain"
+          />
 
-            {/* Nom de la marque : taille responsive */}
-            {/*<span className="text-lg md:text-2xl lg:text-3xl font-semibold ">
+          {/* Nom de la marque : taille responsive */}
+          {/*<span className="text-lg md:text-2xl lg:text-3xl font-semibold ">
               La Chaloupe
             </span>*/}
-          </Link>
-          </div>
+        </Link>
+      </div>
 
       {/* Conteneur principal du header. Hauteur responsive : mobile(64px) md(80px) lg(100px) */}
       <div className="navbar bg-base-100 px-2 h-16 md:h-20 lg:h-[100px] items-center ">
@@ -79,24 +79,22 @@ const Header = () => {
           </div>
 
           {/* Logo + nom : lien vers la page d'accueil */}
-                    {/* Lien vers la page Facebook */}
-                <a
-              href="https://www.facebook.com/p/La-Chaloupe-100057433330072/"
-              aria-label="Facebook"
-              className="btn btn-ghost btn-sm rounded-full"
+          {/* Lien vers la page Facebook */}
+          <a
+            href="https://www.facebook.com/p/La-Chaloupe-100057433330072/"
+            aria-label="Facebook"
+            className="btn btn-ghost btn-sm rounded-full"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-12 h-12"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-12 h-12"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 4.99 3.66 9.12 8.44 9.93v-7.03H7.9v-2.9h2.54V9.41c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.61.76-1.61 1.54v1.84h2.74l-.44 2.9h-2.3V22C18.34 21.19 22 17.06 22 12.07z" />
-              </svg>
-            </a>
-
-                    
+              <path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 4.99 3.66 9.12 8.44 9.93v-7.03H7.9v-2.9h2.54V9.41c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.61.76-1.61 1.54v1.84h2.74l-.44 2.9h-2.3V22C18.34 21.19 22 17.06 22 12.07z" />
+            </svg>
+          </a>
         </div>
 
         {/* Section centrale : menu horizontal visible en desktop (lg+) */}
@@ -166,7 +164,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
