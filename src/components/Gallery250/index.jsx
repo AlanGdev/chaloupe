@@ -1,6 +1,6 @@
-'use client';
+'use client'
 
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
 const thumbnails = [
   '/sauteCrevettes250px.avif',
@@ -12,25 +12,25 @@ const thumbnails = [
   '/pizzaRustique250px.avif',
   '/petitDelice250px.avif',
   '/nougatGlace250px.avif',
-];
+]
 
 function toFull(src) {
-  return src.replace('250px', '');
+  return src.replace('250px', '')
 }
 
 export default function Gallery250() {
-  const [open, setOpen] = useState(false);
-  const [active, setActive] = useState(0);
+  const [open, setOpen] = useState(false)
+  const [active, setActive] = useState(0)
 
   const openAt = (i) => {
-    setActive(i);
-    setOpen(true);
-  };
+    setActive(i)
+    setOpen(true)
+  }
 
-  const close = () => setOpen(false);
+  const close = () => setOpen(false)
 
   return (
-    <div className="w-full mx-auto p-4 bg-orange-200  my-8">
+    <div className="w-full mx-auto p-4 bg-amber-50  my-8">
       <div className="max-w-4xl mx-auto">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           {thumbnails.map((src, i) => (
@@ -76,5 +76,5 @@ export default function Gallery250() {
         )}
       </div>
     </div>
-  );
+  )
 }

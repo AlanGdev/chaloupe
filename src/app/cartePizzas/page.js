@@ -5,7 +5,7 @@ export default function CartePizzasPage() {
   return (
     <>
       <Header />
-      <main className="py-8 px-4 max-w-4xl mx-auto">
+      <main className="py-8 px-4 max-w-4xl mx-auto bg-gray-50">
         <h1 className="text-3xl font-bold text-center mb-6">
           Pizzas & Burgers (sur place ou à emporter)
         </h1>

@@ -1,6 +1,6 @@
 export function RestaurantSection1() {
   return (
-    <div className="w-full bg-gray-100 py-12">
+    <div className="w-full bg-amber-50 py-12">
       <div className="max-w-4xl mx-auto px-4">
         <div className=" flex flex-col sm:flex-row items-center gap-6">
           <div className="my-6 w-full sm:w-1/2">
@@ -23,7 +23,7 @@ export function RestaurantSection1() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default RestaurantSection1;
+export default RestaurantSection1
