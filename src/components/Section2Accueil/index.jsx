@@ -9,17 +9,12 @@ export function Section2Accueil() {
             Bienvenue à La Chaloupe
           </h2>
           <p className="text-2xl leading-loose text-center">
-            Nichée à Noyalo, au pied du Golfe du Morbihan, La Chaloupe est un
-            lieu authentique o&ugrave; l&apos;on vient autant pour bien manger
-            que pour passer un moment convivial. Notre restaurant vous accueille
-            dans une ambiance chaleureuse et d&eacute;contract&eacute;e,
-            id&eacute;ale pour savourer des plats faits maison
-            pr&eacute;par&eacute;s avec soin.
-            <br />
-            Ici, on aime les choses simples mais de qualité : des produits
-            frais, des fournisseurs locaux et une ambiance qui sent bon les
-            vacances. Que vous soyez amateurs de bons plats, de pizzas ou de
-            burgers, notre carte variée saura satisfaire toutes vos envies.
+            Nichée à Noyalo, à l&apos;entrée de la presqu&apos;île de Rhuys, La
+            Chaloupe est un lieu authentique o&ugrave; l&apos;on vient autant
+            pour bien manger que pour passer un moment convivial. Notre
+            restaurant vous accueille dans une ambiance chaleureuse et
+            d&eacute;contract&eacute;e, id&eacute;ale pour savourer des plats
+            faits maison pr&eacute;par&eacute;s avec soin.
             <br />
             Venez d&eacute;couvrir notre terrasse ensoleill&eacute;e ou profiter
             de notre int&eacute;rieur cosy, parfait pour un repas en famille,
@@ -31,5 +26,5 @@ export function Section2Accueil() {
         </section>
       }
     </>
-  );
+  )
 }
