@@ -17,6 +17,13 @@ export default function CartePage() {
         <a href="/cartePizzas" className="inline-block focus:outline-none">
           <img src="/cartePizzas.jpg" alt="Carte Pizzas & Burgers" />
         </a>
+
+        <a
+          href="https://www.facebook.com/p/La-Chaloupe-100057433330072/"
+          className="inline-block focus:outline-none"
+        >
+          <img src="/carteMenuJour.jpg" alt="Menu du jour - lien Facebook" />
+        </a>
       </div>
 
       <Footer />
