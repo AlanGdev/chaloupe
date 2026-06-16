@@ -1,5 +1,5 @@
 // Composant Footer (daisyUI)
-import Link from 'next/link';
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -20,7 +20,7 @@ export default function Footer() {
             Restaurant & bar — pizzeria - burgers, cuisine locale et ambiance
             bord de mer.
             <br />
-            Sur place ou à emporter.
+            <span className="font-semibold">Sur place ou à emporter.</span>
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export default function Footer() {
         <div>
           <h3 className="footer-title">Contact</h3>
           <a
-            href="tel:+33687190292"
+            href="tel:+33297430548"
             className="flex items-center gap-3 text-base md:text-lg text-red-800 hover:text-red-700"
           >
             <svg
@@ -85,7 +85,7 @@ export default function Footer() {
 
           <div className="mt-4 flex gap-3">
             <a
-              href="#"
+              href="https://www.facebook.com/p/La-Chaloupe-100057433330072/"
               aria-label="Facebook"
               className="btn btn-ghost btn-sm rounded-full"
             >
@@ -109,5 +109,5 @@ export default function Footer() {
         </p>
       </div>
     </footer>
-  );
+  )
 }

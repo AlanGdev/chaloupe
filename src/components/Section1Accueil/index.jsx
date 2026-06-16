@@ -6,10 +6,10 @@ import { AnimatePresence, motion } from 'framer-motion'
 export function Section1Accueil() {
   const images = useMemo(
     () => [
-      '/chaloupeGrandAngle.avif',
-      '/section1AccueilImg2.avif',
-      '/section1AccueilImg3.avif',
-      '/pontNoyalo.avif',
+      '/chaloupePresentation1.avif',
+      '/chaloupe4.avif',
+      '/chaloupe5.avif',
+      '/chaloupe6.avif',
     ],
     []
   )

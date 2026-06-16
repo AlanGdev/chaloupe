@@ -15,7 +15,7 @@ export default function CartePage() {
         </a>
 
         <a href="/cartePizzas" className="inline-block focus:outline-none">
-          <img src="/cartePizzas.jpg" alt="Carte Pizzas & Burgers" />
+          <img src="/carteAemporter.jpg" alt="Carte Pizzas & Burgers" />
         </a>
 
         <a

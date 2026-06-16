@@ -25,12 +25,12 @@ export function Section1Contact() {
                   Téléphone : 02 97 43 05 48
                 </a>
                 <br />
-                <a
+                {/*<a
                   href="mailto:contact@lachaloupe.fr"
                   className="hover:underline"
                 >
                   Email : contact@lachaloupe.fr
-                </a>
+                </a>*/}
               </p>
             </div>
           </div>
@@ -41,7 +41,22 @@ export function Section1Contact() {
             <p>
               Lundi - Mardi : Fermé
               <br />
-              Mercredi - Dimanche : 09h00 - 22h00
+              <span className="font-semibold underline">Bar</span>
+              <br />
+              Mercredi - Dimanche : 10h00 - 22h00
+              <br />
+              <span className="font-semibold underline">Restaurant</span>
+              <br />
+              midi: 12h00 - 14h00
+              <br />
+              soir: 19h00 - 20h30<sup className="text-sm font-light">
+                *
+              </sup>{' '}
+              (fin de service)
+              <br />
+              <span className="text-sm font-light">
+                *21h00 le vendredi et samedi
+              </span>
             </p>
           </div>
         </div>

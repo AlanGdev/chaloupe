@@ -5,7 +5,7 @@ export function RestaurantSection1() {
         <div className=" flex flex-col sm:flex-row items-center gap-6">
           <div className="my-6 w-full sm:w-1/2">
             <img
-              src="/salleChaloupe.avif"
+              src="/chaloupeInterieurSalle.avif"
               alt="Salle de La Chaloupe"
               className="mx-auto rounded-md w-full max-w-lg object-cover"
             />

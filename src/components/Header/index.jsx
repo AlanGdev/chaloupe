@@ -139,9 +139,9 @@ const Header = () => {
         <div className="navbar-end">
           {/* Lien `tel:` ouvre le composeur sur mobile. Couleurs pastel pour style doux. */}
           <a
-            href="tel:+33687190292"
+            href="tel:+33297430548"
             className="btn text-lg md:text-xl flex items-center bg-red-200 text-red-800 hover:bg-red-300 border-transparent shadow-sm focus:outline-none"
-            aria-label="Appeler +33 6 87 19 02 92"
+            aria-label="Appeler +33 2 97 43 05 48"
           >
             {/* Icône téléphone SVG (inline pour éviter dépendances supplémentaires) */}
             <svg

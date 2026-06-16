@@ -7,7 +7,7 @@ export default function CartePizzasPage() {
       <Header />
       <main className="py-8 px-4 max-w-4xl mx-auto bg-gray-50">
         <h1 className="text-3xl font-bold text-center mb-6">
-          Pizzas & Burgers (sur place ou à emporter)
+          Pizzas & Burgers à emporter
         </h1>
         <div className="bg-amber-50 rounded shadow p-4">
           <h2 className="text-xl font-semibold text-center underline">
@@ -23,7 +23,7 @@ export default function CartePizzasPage() {
                   cornichons, sauce burger
                 </p>
               </div>
-              <p>14.00€</p>
+              <p>13.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -33,7 +33,7 @@ export default function CartePizzasPage() {
                   confiture d&apos;oignons, cornichons, sauce burger
                 </p>
               </div>
-              <p>15.50€</p>
+              <p>14.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -43,7 +43,7 @@ export default function CartePizzasPage() {
                   confiture d&apos;oignons, cornichons, sauce burger
                 </p>
               </div>
-              <p>14.50€</p>
+              <p>13.50€</p>
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-center underline mt-8">
@@ -55,21 +55,21 @@ export default function CartePizzasPage() {
                 <p>Bambino (enfant)</p>
                 <p className="text-gray-600">Tomate, mozzarella, jambon</p>
               </div>
-              <p>7.50€</p>
+              <p>6.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
                 <p>Margarita</p>
                 <p className="text-gray-600">Tomate, mozzarella, olives</p>
               </div>
-              <p>8.50€</p>
+              <p>7.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
                 <p>Venise</p>
                 <p className="text-gray-600">Tomate, mozzarella, jambon</p>
               </div>
-              <p>9.50€</p>
+              <p>8.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -78,7 +78,7 @@ export default function CartePizzasPage() {
                   Tomate, fromage, jambon, champignons
                 </p>
               </div>
-              <p>11.00€</p>
+              <p>10.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -87,7 +87,7 @@ export default function CartePizzasPage() {
                   Tomate, mozzarella, jambon cru, crème fraîche, oeuf
                 </p>
               </div>
-              <p>12.50€</p>
+              <p>11.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -96,7 +96,7 @@ export default function CartePizzasPage() {
                   Tomate, mozzarella, anchois, champignons, câpres, olives
                 </p>
               </div>
-              <p>13.00€</p>
+              <p>12.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -106,7 +106,7 @@ export default function CartePizzasPage() {
                   tomates cerises, olives, persillade
                 </p>
               </div>
-              <p>13.00€</p>
+              <p>12.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -115,7 +115,7 @@ export default function CartePizzasPage() {
                   Tomate, mozzarella, chèvre, gorgonzola, reblochon
                 </p>
               </div>
-              <p>13.00€</p>
+              <p>12.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -125,7 +125,7 @@ export default function CartePizzasPage() {
                   rouges
                 </p>
               </div>
-              <p>13.00€</p>
+              <p>12.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -135,7 +135,7 @@ export default function CartePizzasPage() {
                   persillade
                 </p>
               </div>
-              <p>13.00€</p>
+              <p>12.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -144,7 +144,7 @@ export default function CartePizzasPage() {
                   Tomate, mozzarella, chorizo, merguez, poivrons, oignons rouges
                 </p>
               </div>
-              <p>13.00€</p>
+              <p>12.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -154,7 +154,7 @@ export default function CartePizzasPage() {
                   lardons, crème fraîche
                 </p>
               </div>
-              <p>14.00€</p>
+              <p>13.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -164,7 +164,7 @@ export default function CartePizzasPage() {
                   ananas
                 </p>
               </div>
-              <p>14.00€</p>
+              <p>13.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -174,7 +174,7 @@ export default function CartePizzasPage() {
                   rouges, sauce blanche
                 </p>
               </div>
-              <p>14.00€</p>
+              <p>13.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -184,7 +184,7 @@ export default function CartePizzasPage() {
                   d&apos;ail
                 </p>
               </div>
-              <p>14.50€</p>
+              <p>13.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -197,7 +197,7 @@ export default function CartePizzasPage() {
                   Modification en base crème: +0.50€
                 </p>
               </div>
-              <p>15.50€</p>
+              <p>14.50€</p>
             </li>
           </ul>
           <p className="underline mt-4 font-bold">Base crème:</p>
@@ -211,7 +211,7 @@ export default function CartePizzasPage() {
                   </p>
                 </div>
               </div>
-              <p>14.50€</p>
+              <p>12.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -221,7 +221,7 @@ export default function CartePizzasPage() {
                   Rhuys, champignons
                 </p>
               </div>
-              <p>14.00€</p>
+              <p>13.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -230,19 +230,28 @@ export default function CartePizzasPage() {
                   Crème fraîche, mozzarella, chèvre, coppa, oignons rouges, miel
                 </p>
               </div>
-              <p>13.00€</p>
+              <p>12.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p className="font-bold">Supplément hors viande</p>
+                <p className="font-bold">
+                  <sup>*</sup>Modification en base crème
+                </p>
+              </div>
+              <p>+0.50€</p>
+            </li>
+            <li className="flex justify-between my-2">
+              <div className="flex flex-col">
+                <p className="font-bold">
+                  <sup>*</sup>Supplément légumes, oeuf
+                </p>
               </div>
               <p>1.30€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p className="font-bold">Supplément viande</p>
-                <p className="text-gray-600">
-                  merguez, chorizo, poulet, viande hachée
+                <p className="font-bold">
+                  <sup>*</sup>Supplément viande, poisson
                 </p>
               </div>
               <p>1.80€</p>
