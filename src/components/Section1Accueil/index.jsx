@@ -8,8 +8,9 @@ export function Section1Accueil() {
     () => [
       '/chaloupePresentation1.avif',
       '/chaloupe4.avif',
-      '/chaloupe5.avif',
       '/chaloupe6.avif',
+      '/chaloupe7.avif',
+      '/chaloupe5.avif',
     ],
     []
   )

@@ -17,7 +17,7 @@ export default function CartePizzasPage() {
           <ul className="list-disc list-inside mt-4 space-y-2">
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Burger Classique</p>
+                <p className="font-semibold">Burger Classique</p>
                 <p className="text-gray-600">
                   Bun, steack VBF, salade, tomate, cheddar, oignons rouges,
                   cornichons, sauce burger
@@ -27,7 +27,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Burger Chef</p>
+                <p className="font-semibold">Burger Chef</p>
                 <p className="text-gray-600">
                   Bun, steack VBF, salade, tomate, cheddar, tome de Rhuys,
                   confiture d&apos;oignons, cornichons, sauce burger
@@ -37,7 +37,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Burger Veggie</p>
+                <p className="font-semibold">Burger Veggie</p>
                 <p className="text-gray-600">
                   Steack de légumes, salade, tomate, cheddar, tome de Rhuys,
                   confiture d&apos;oignons, cornichons, sauce burger
@@ -52,28 +52,28 @@ export default function CartePizzasPage() {
           <ul className="list-disc list-inside mt-4 space-y-2">
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Bambino (enfant)</p>
+                <p className="font-semibold">Bambino (enfant)</p>
                 <p className="text-gray-600">Tomate, mozzarella, jambon</p>
               </div>
               <p>6.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Margarita</p>
+                <p className="font-semibold">Margarita</p>
                 <p className="text-gray-600">Tomate, mozzarella, olives</p>
               </div>
               <p>7.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Venise</p>
+                <p className="font-semibold">Venise</p>
                 <p className="text-gray-600">Tomate, mozzarella, jambon</p>
               </div>
               <p>8.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Reine</p>
+                <p className="font-semibold">Reine</p>
                 <p className="text-gray-600">
                   Tomate, fromage, jambon, champignons
                 </p>
@@ -82,7 +82,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Rustique</p>
+                <p className="font-semibold">Rustique</p>
                 <p className="text-gray-600">
                   Tomate, mozzarella, jambon cru, crème fraîche, oeuf
                 </p>
@@ -91,7 +91,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Napolitaine</p>
+                <p className="font-semibold">Napolitaine</p>
                 <p className="text-gray-600">
                   Tomate, mozzarella, anchois, champignons, câpres, olives
                 </p>
@@ -100,7 +100,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Végétarienne</p>
+                <p className="font-semibold">Végétarienne</p>
                 <p className="text-gray-600">
                   Tomate, mozzarella, oignons rouges, poivrons, champignons,
                   tomates cerises, olives, persillade
@@ -110,7 +110,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Trio</p>
+                <p className="font-semibold">Trio</p>
                 <p className="text-gray-600">
                   Tomate, mozzarella, chèvre, gorgonzola, reblochon
                 </p>
@@ -119,7 +119,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Bretonne</p>
+                <p className="font-semibold">Bretonne</p>
                 <p className="text-gray-600">
                   Tomate, mozzarella, lardons, andouille, pomme fruit, oignons
                   rouges
@@ -129,7 +129,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Bolognaise</p>
+                <p className="font-semibold">Bolognaise</p>
                 <p className="text-gray-600">
                   Tomate, mozzarella, viande hachée, oignons rouges, oeuf,
                   persillade
@@ -139,7 +139,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Méxicaine</p>
+                <p className="font-semibold">Méxicaine</p>
                 <p className="text-gray-600">
                   Tomate, mozzarella, chorizo, merguez, poivrons, oignons rouges
                 </p>
@@ -148,7 +148,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Montagnarde</p>
+                <p className="font-semibold">Montagnarde</p>
                 <p className="text-gray-600">
                   Tomate, mozzarella, jambon cru, reblochon, oignons rouges,
                   lardons, crème fraîche
@@ -158,7 +158,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Californienne</p>
+                <p className="font-semibold">Californienne</p>
                 <p className="text-gray-600">
                   Tomate, fromage, poulet au curry, poivrons, oignons rouges,
                   ananas
@@ -168,7 +168,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Kébab</p>
+                <p className="font-semibold">Kébab</p>
                 <p className="text-gray-600">
                   Tomate, mozzarella, viande kebab, tomates cerises, oignons
                   rouges, sauce blanche
@@ -178,7 +178,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Sinagote</p>
+                <p className="font-semibold">Sinagote</p>
                 <p className="text-gray-600">
                   Tomate, mozzarella, poivrons, chorizo, encornets, beurre
                   d&apos;ail
@@ -188,13 +188,10 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Chaloupe</p>
+                <p className="font-semibold">Chaloupe</p>
                 <p className="text-gray-600">
                   Tomate, mozzarella, noix de St Jacques, crevettes roses,
                   moules, persillade
-                </p>
-                <p className="text-gray-600 underline font-semibold">
-                  Modification en base crème: +0.50€
                 </p>
               </div>
               <p>14.50€</p>
@@ -204,7 +201,7 @@ export default function CartePizzasPage() {
           <ul>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Saumonette</p>
+                <p className="font-semibold">Saumonette</p>
                 <div className="text-gray-600 flex flex-col">
                   <p className="text-gray-600">
                     Crème fraîche, mozzarella, saumon fumé, citron, salicornes
@@ -215,7 +212,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Fermière</p>
+                <p className="font-semibold">Fermière</p>
                 <p className="text-gray-600">
                   Crème fraîche, mozzarella, oignons rouges, lardons, tome de
                   Rhuys, champignons
@@ -225,7 +222,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p>Seguin</p>
+                <p className="font-semibold">Seguin</p>
                 <p className="text-gray-600">
                   Crème fraîche, mozzarella, chèvre, coppa, oignons rouges, miel
                 </p>
@@ -234,7 +231,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p className="font-bold">
+                <p className="font-semibold">
                   <sup>*</sup>Modification en base crème
                 </p>
               </div>
@@ -242,7 +239,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p className="font-bold">
+                <p className="font-semibold">
                   <sup>*</sup>Supplément légumes, oeuf
                 </p>
               </div>
@@ -250,7 +247,7 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p className="font-bold">
+                <p className="font-semibold">
                   <sup>*</sup>Supplément viande, poisson
                 </p>
               </div>

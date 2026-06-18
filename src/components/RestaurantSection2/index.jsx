@@ -16,7 +16,7 @@ export function RestaurantSection2() {
 
           <div className="my-6 w-full sm:w-1/2">
             <img
-              src="/verandaChaloupe.avif"
+              src="/chaloupeVeranda.avif"
               alt="Véranda de La Chaloupe"
               className="mx-auto rounded-md w-full max-w-lg object-cover"
             />
@@ -24,7 +24,7 @@ export function RestaurantSection2() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default RestaurantSection2;
+export default RestaurantSection2
