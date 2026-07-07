@@ -193,6 +193,9 @@ export default function CartePizzasPage() {
                   Tomate, mozzarella, noix de St Jacques, crevettes roses,
                   moules, persillade
                 </p>
+                <p className="text-gray-600 underline font-semibold">
+                  Modification en base crème: +1.00€
+                </p>
               </div>
               <p>14.50€</p>
             </li>
@@ -231,27 +234,19 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p className="font-semibold">
-                  <sup>*</sup>Modification en base crème
-                </p>
+                <p className="font-semibold">Supplément hors viande</p>
+                <p className="text-gray-600">fromage, oeuf, légume</p>
               </div>
-              <p>+0.50€</p>
+              <p>1.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p className="font-semibold">
-                  <sup>*</sup>Supplément légumes, oeuf
+                <p className="font-semibold">Supplément viande</p>
+                <p className="text-gray-600">
+                  merguez, chorizo, poulet, viande hachée
                 </p>
               </div>
-              <p>1.30€</p>
-            </li>
-            <li className="flex justify-between my-2">
-              <div className="flex flex-col">
-                <p className="font-semibold">
-                  <sup>*</sup>Supplément viande, poisson
-                </p>
-              </div>
-              <p>1.80€</p>
+              <p>2.00€</p>
             </li>
           </ul>
         </div>
