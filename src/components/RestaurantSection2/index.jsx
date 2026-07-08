@@ -7,10 +7,9 @@ export function RestaurantSection2() {
             <h3 className="text-4xl font-semibold underline">La Véranda</h3>
             <p className="text-xl text-gray-700 leading-loose">
               La véranda de La Chaloupe offre un cadre lumineux et aéré, idéal
-              pour profiter d&apos;un repas tout en admirant la vue sur le Golfe
-              du Morbihan. Que ce soit pour un déjeuner ensoleillé ou un dîner
-              romantique, cet espace vous accueille dans une ambiance
-              chaleureuse et conviviale.
+              pour profiter d&apos;un repas tout en admirant la vue. Que ce soit
+              pour un déjeuner ensoleillé ou un dîner romantique, cet espace
+              vous accueille dans une ambiance chaleureuse et conviviale.
             </p>
           </div>
 

@@ -13,7 +13,7 @@ export default function CartePizzasPage() {
           <h2 className="text-xl font-semibold text-center underline">
             BURGERS
           </h2>
-          <p className="text-center">Servis avec frites et salade</p>
+          <p className="text-center">Servis avec frites</p>
           <ul className="list-disc list-inside mt-4 space-y-2">
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -37,13 +37,13 @@ export default function CartePizzasPage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p className="font-semibold">Burger Veggie</p>
+                <p className="font-semibold">Burger Fraîcheur (servi froid)</p>
                 <p className="text-gray-600">
-                  Steack de légumes, salade, tomate, cheddar, tome de Rhuys,
-                  confiture d&apos;oignons, cornichons, sauce burger
+                  Burger feuilleté, fromage fouetté citronné,saumon fumé,
+                  salade, concombre, oignon rouge
                 </p>
               </div>
-              <p>13.50€</p>
+              <p>14.50€</p>
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-center underline mt-8">

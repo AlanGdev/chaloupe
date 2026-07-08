@@ -15,9 +15,9 @@ export function RestaurantSection3() {
             <p className="text-xl text-gray-700 leading-loose">
               Découvrez notre terrasse ensoleillée, un espace extérieur idéal
               pour savourer un repas tout en profitant de l&apos;air frais et de
-              la vue sur le Golfe du Morbihan. Que ce soit pour un déjeuner
-              décontracté ou un dîner sous les étoiles, la terrasse vous offre
-              une ambiance agréable et conviviale.
+              la vue. Que ce soit pour un déjeuner décontracté ou un dîner sous
+              les étoiles, la terrasse vous offre une ambiance agréable et
+              conviviale.
             </p>
           </div>
         </div>

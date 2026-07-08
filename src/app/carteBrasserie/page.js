@@ -200,7 +200,7 @@ export default function CarteBrasseriePage() {
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
                 <p className="font-semibold">
-                  Encornets au beurre d&apos;ails, riz et légumes
+                  Encornets au beurre d&apos;ail, riz et légumes
                 </p>
               </div>
               <p>18.00€</p>
@@ -271,13 +271,13 @@ export default function CarteBrasseriePage() {
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
-                <p className="font-semibold">Burger Veggie</p>
+                <p className="font-semibold">Burger Fraîcheur (servi froid)</p>
                 <p className="text-gray-600">
-                  Steack de légumes, salade, tomate, cheddar, tome de Rhuys,
-                  confiture d&apos;oignons, cornichons, sauce burger
+                  Burger feuilleté, fromage fouetté citronné,saumon fumé,
+                  salade, concombre, oignon rouge
                 </p>
               </div>
-              <p>14.50€</p>
+              <p>15.50€</p>
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-center underline mt-8">
