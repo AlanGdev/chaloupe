@@ -49,11 +49,11 @@ export function Section1Contact() {
               <br />
               <span className="font-semibold">midi:</span> 12h00 - 14h00
               <br />
-              <span className="font-semibold">soir:</span> 19h00 - 20h30
-              <sup className="text-sm font-light">*</sup> (fin de service)
+              <span className="font-semibold">soir:</span> 19h00 - 21h00
+              {/*<sup className="text-sm font-light">*</sup>*/} (fin de service)
               <br />
               <span className="text-sm font-light">
-                *21h00 le vendredi et samedi
+                {/**21h00 le vendredi et samedi*/}
               </span>
             </p>
           </div>
