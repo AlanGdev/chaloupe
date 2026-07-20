@@ -1,6 +1,13 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
+export const metadata = {
+  title: 'Carte du restaurant',
+
+  description:
+    'Consultez la carte du restaurant La Chaloupe, notre carte à emporter ainsi que notre menu du jour.',
+}
+
 export default function CartePage() {
   return (
     <>
