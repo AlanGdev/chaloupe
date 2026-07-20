@@ -1,8 +1,15 @@
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
-import RestaurantSection1 from '@/components/RestaurantSection1';
-import RestaurantSection2 from '@/components/RestaurantSection2';
-import RestaurantSection3 from '@/components/RestaurantSection3';
+import Footer from '@/components/Footer'
+import Header from '@/components/Header'
+import RestaurantSection1 from '@/components/RestaurantSection1'
+import RestaurantSection2 from '@/components/RestaurantSection2'
+import RestaurantSection3 from '@/components/RestaurantSection3'
+
+export const metadata = {
+  title: 'Restaurant avec terrasse à Theix-Noyalo',
+
+  description:
+    'Découvrez le restaurant La Chaloupe à Theix-Noyalo : salle intérieure, terrasse, véranda et ambiance conviviale près de Vannes.',
+}
 
 export default function RestaurantPage() {
   return (
@@ -18,5 +25,5 @@ export default function RestaurantPage() {
       </div>
       <Footer />
     </>
-  );
+  )
 }

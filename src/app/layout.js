@@ -17,7 +17,7 @@ export const metadata = {
   title: {
     default: 'Restaurant La Chaloupe à Theix-Noyalo',
 
-    template: '%s | Restaurant La Chaloupe',
+    template: '%s | La Chaloupe',
   },
 
   description:
