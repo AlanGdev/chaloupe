@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { Section1Accueil } from '@/components/Section1Accueil'
 import { Section2Accueil } from '@/components/Section2Accueil'
+import { Section3Accueil } from '@/components/Section3Accueil'
 export const metadata = {
   title: 'Restaurant à Theix-Noyalo | La Chaloupe',
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <Section1Accueil />
       <Section2Accueil />
+      <Section3Accueil />{' '}
       {
         //<Gallery250 />
       }
