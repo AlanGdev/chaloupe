@@ -29,12 +29,14 @@ export default function CarteBrasseriePage() {
               </div>
               <p>9.50€</p>
             </li>
+            {/*
             <li className="flex justify-between my-2">
-              <div className="flex flex-col">
-                <p className="font-semibold">Tartare de thon au pesto</p>
-              </div>
-              <p>9.50€</p>
-            </li>
+                <div className="flex flex-col">
+                  <p className="font-semibold">Tartare de thon au pesto</p>
+                </div>
+                <p>9.50€</p>
+              </li>
+            */}
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
                 <p className="font-semibold">Rillettes de poissons</p>
@@ -63,8 +65,8 @@ export default function CarteBrasseriePage() {
                   Planche de la mer à partager (2 personnes)
                 </p>
                 <p className="text-gray-600">
-                  (Tartare de thon au pesto, rillettes de poissons, crevettes
-                  sauce salsa,toasts)
+                  (Encornets marinés, rillettes de poissons, crevettes sauce
+                  salsa,toasts)
                 </p>
               </div>
               <p>16.00€</p>
@@ -94,7 +96,7 @@ export default function CarteBrasseriePage() {
             SALADES
           </h2>
           <ul className="list-disc list-inside mt-4 space-y-2">
-            <li className="flex justify-between my-2">
+            {/*<li className="flex justify-between my-2">
               <div className="flex flex-col">
                 <p className="font-semibold">La César</p>
                 <p className="text-gray-600">
@@ -103,7 +105,7 @@ export default function CarteBrasseriePage() {
                 </p>
               </div>
               <p>14.50€</p>
-            </li>
+            </li>*/}
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
                 <p className="font-semibold">Godaille</p>
@@ -205,13 +207,22 @@ export default function CarteBrasseriePage() {
               </div>
               <p>18.00€</p>
             </li>
-            <li className="flex justify-between my-2">
+            {/*<li className="flex justify-between my-2">
               <div className="flex flex-col">
                 <p className="font-semibold">
                   Tartare de thon au pesto, parmesan, frites, salade
                 </p>
               </div>
               <p>19.50€</p>
+            </li>*/}
+            <li className="flex justify-between my-2">
+              <div className="flex flex-col">
+                <p className="font-semibold">
+                  Sauté de crevettes, sauce curry coco, riz et légumes
+                </p>
+                <p className="text-gray-600">(Crevettes non décortiquées)</p>
+              </div>
+              <p>19.00€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -224,7 +235,7 @@ export default function CarteBrasseriePage() {
               <p>21.00€</p>
             </li>
           </ul>
-          <h2 className="text-xl font-semibold text-center underline mt-8">
+          {/*<h2 className="text-xl font-semibold text-center underline mt-8">
             MOULES
           </h2>
           <ul className="list-disc list-inside mt-4 space-y-2">
@@ -243,7 +254,7 @@ export default function CarteBrasseriePage() {
               </div>
               <p>16.80€</p>
             </li>
-          </ul>
+          </ul>*/}
           <h2 className="text-xl font-semibold text-center underline">
             BURGERS
           </h2>
@@ -257,7 +268,7 @@ export default function CarteBrasseriePage() {
                   cornichons, sauce burger
                 </p>
               </div>
-              <p>14.00€</p>
+              <p>14.50€</p>
             </li>
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
@@ -267,9 +278,9 @@ export default function CarteBrasseriePage() {
                   confiture d&apos;oignons, cornichons, sauce burger
                 </p>
               </div>
-              <p>15.50€</p>
+              <p>16.00€</p>
             </li>
-            <li className="flex justify-between my-2">
+            {/* <li className="flex justify-between my-2">
               <div className="flex flex-col">
                 <p className="font-semibold">Burger Fraîcheur (servi froid)</p>
                 <p className="text-gray-600">
@@ -278,6 +289,16 @@ export default function CarteBrasseriePage() {
                 </p>
               </div>
               <p>15.50€</p>
+            </li>*/}
+            <li className="flex justify-between my-2">
+              <div className="flex flex-col">
+                <p className="font-semibold">Burger Veggie</p>
+                <p className="text-gray-600">
+                  Steak de légumes, salade, tomate, cheddar, tome de Rhuys,
+                  confiture d&apos;oignons, cornichons, sauce burger
+                </p>
+              </div>
+              <p>15.00€</p>
             </li>
           </ul>
           <h2 className="text-xl font-semibold text-center underline mt-8">
@@ -618,7 +639,7 @@ export default function CarteBrasseriePage() {
               </div>
               <p>8.40€</p>
             </li>
-            <li className="flex justify-between my-2">
+            {/*<li className="flex justify-between my-2">
               <div className="flex flex-col">
                 <p className="font-semibold">Fraise Melba</p>
                 <p className="text-gray-600">
@@ -626,7 +647,7 @@ export default function CarteBrasseriePage() {
                 </p>
               </div>
               <p>8.70€</p>
-            </li>
+            </li>*/}
             <li className="flex justify-between my-2">
               <div className="flex flex-col">
                 <p className="font-semibold">Banana Split</p>
