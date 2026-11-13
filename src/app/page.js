@@ -16,7 +16,7 @@ export default function Home() {
       <Header />
       <Section1Accueil />
       <Section2Accueil />
-      <Section3Accueil />{' '}
+      {/* <Section3Accueil />{' '} */}
       {
         //<Gallery250 />
       }
